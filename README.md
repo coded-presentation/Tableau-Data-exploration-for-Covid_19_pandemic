@@ -1,10 +1,10 @@
-# Tableau_Data_Visualization_for_Covid_19_pandemic
-This repository has relevant information to visualize the information in tableau
+# Tableau_Data_Exploration_for_Covid_19_pandemic
+This repository has relevant information to Explore the information in SQL
 
 # Global Infection Vs Vaccination Visualization in SQL (Part - 1)
 <h3>This Portfolio is based upon the OurWorldInData Project done by MIT and Standford University.
 </h3>
-<p>In this Portfolio i have mentioned several Queries that are used to find View's of different SubData from diversed data-set of Covid19_infection Contigency.</p>
+<p>In this Portfolio i have mentioned several Queries that are used to find View's of different Vies from diversed data-set of Covid19</p>
  
 
 <!---->        
