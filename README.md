@@ -54,7 +54,7 @@ Group by Location
 order by TotalDeathCount desc
 
 ```
- **Output  for Table 1**
+ **Output  for Table 2**
 <a href="https://1drv.ms/u/s!Agb9UJ70oAhYgYM2jDymgbEF5enhsA?e=soSt3C"><img src="https://bn1305files.storage.live.com/y4miNwsewCbNI2lI37AymFnY3rx3yIVORU_TIw8tnajx2yDfhzcHBvOQR9IgtUjIVmFlMmv1NtD4oimRmi3O2PqfVhUVvlXDEh74iG5pHpqHiHV9G-iwKfQd-zF64HMSgPU2GW40K6cFsAHFxS492q8LiWod4iIUFrBCb_QzgU-nmwYaIWmmOSj7JnlI8gD0U7F?width=1920&height=1080&cropmode=none"> </a>     
 
 >BREAKING THINGS DOWN BY CONTINENT
@@ -67,7 +67,7 @@ Where continent is not null
 Group by continent
 order by TotalDeathCount desc
 ```
- **Output  for Table 1**
+ **Output  for Table 3**
 <a href="" ><img src="https://bn1305files.storage.live.com/y4mbF8fTIS7OO9wGdgYc-61cNWQW6HWiqoapJaJ2yXsMDqhdNa2WC6VgXZtY0AedplbAGu9RUCFh6RlSrs4Tih2-9-vAl16_JGVAFDpvo8Tfh-PmUVJMiFCWnWcDwleR5ZbX87OsWrb4HEKCADakIl08OIGSJbzQKWorwf2HLtG1y51sttojCdQn43Zwkbraxvp?width=1920&height=1080&cropmode=none"> </a>
 >GLOBAL NUMBERS
 ```
@@ -79,7 +79,7 @@ where continent is not null
 order by 1,2
 
 ```
- **Output  for Table 1**
+ **Output  for Table 4**
 <a href="" ><img src="https://bn1305files.storage.live.com/y4mPvYz1HtTLB6pWBpahWE3SEPwmFgII_X3Nbj9t75dcILGH6UvTRYsMA-G91M5fQfQyk1Tn8P0F7uxB8QfIVyZtEy_Xv0RDjo64eahSWq4p_Vwiwcj42WUdZfE6Og1-47Pwlq3pI3v5Hjm2CD5ofmo84QgtQZ7cwLvp-bHmjy1LZnjt7DH_15RABFx0qUVcMjj?width=1920&height=1080&cropmode=none"> </a>
 >Total Population vs Vaccinations
 >Shows Percentage of Population that has recieved at least one Covid Vaccine
@@ -94,7 +94,7 @@ Join PortfolioProject..CovidVaccinations vac
 where dea.continent is not null 
 order by 2,3
 ```
- **Output  for Table 1**
+ **Output  for Table 5**
 <a href="" ><img src="https://bn1305files.storage.live.com/y4mwKC-Z-hcROzh0MqW28VBeOG-aNaY1XosfNcvl_FUCTAwN4iDTpnZ5Ker2P3WuUaSgAKfNLnMs24CTo_MWcTwNtwrKYIxaYfeNRTTY2bO2Q_4bGhkaPLUn8blz9LvV4F8k8RFlKQf8gtzYJQXcrSDXKkpqV99SsdnJTqvA154hIOXcvVwhqgLoO3NOKq2tRWf?width=1920&height=1080&cropmode=none"> </a>
 >Using CTE to perform Calculation on Partition By in previous query
 ```
@@ -115,7 +115,7 @@ Select *, (RollingPeopleVaccinated/Population)*100
 From PopvsVac
 
 ```
- **Output  for Table 1**
+ **Output  for Table 6**
 <a href="" ><img src="https://bn1305files.storage.live.com/y4mwKC-Z-hcROzh0MqW28VBeOG-aNaY1XosfNcvl_FUCTAwN4iDTpnZ5Ker2P3WuUaSgAKfNLnMs24CTo_MWcTwNtwrKYIxaYfeNRTTY2bO2Q_4bGhkaPLUn8blz9LvV4F8k8RFlKQf8gtzYJQXcrSDXKkpqV99SsdnJTqvA154hIOXcvVwhqgLoO3NOKq2tRWf?width=1920&height=1080&cropmode=none"> </a>
 >Using Temp Table to perform Calculation on Partition By in previous query
 ```
@@ -144,7 +144,7 @@ Join PortfolioProject..CovidVaccinations vac
 Select *, (RollingPeopleVaccinated/Population)*100
 From #PercentPopulationVaccinated
 ```
- **Output  for Table 1**
+ **Output  for Table 7**
 <a href="" ><img src="https://bn1305files.storage.live.com/y4mtkNxu6-LqNlfEj019AIzWKHFEMAlHz2urc3lkfAoKR5BxaRYeuFtAVhbZb4SmqrHDR8uGu1KSIe9DtZRvPpJtBqcfo4Tsb-3mUdIfn_XpAhODOem1gVR2Q8tqdPGogKckIzIQxflolS3UN0SJto1uScebHIcF9ex9MTswWfZuo9YDspNWzl_8pNo_59NbZM7?width=1920&height=1080&cropmode=none"> </a>
 
 >Creating View to store data for later visualizations
@@ -159,7 +159,7 @@ Join PortfolioProject..CovidVaccinations vac
 	and dea.date = vac.date
 where dea.continent is not null 
 ```
- **Output  for Table 1**
+ **Output  for Table 8**
 <a href="" ><img src="https://bn1305files.storage.live.com/y4mQx8kwUXbtgn9gEKaPX0ggbl3PvOD_-3bgFhAZ15XMddkvWyxgsjyYjmWtfYfHZuqsZs5M0hRNXVnsFFFUSL9pk4lctNoIqNjl8NAuu0e0ewiPavG4_0azhU40PxP1SM6yffA-FXgoQaakDvPJP20MJGxezDBnt7hevuPWy_TThPkuQ5wyOTJ22EwBzZWjScg?width=1920&height=1080&cropmode=none"> </a>
 
 
