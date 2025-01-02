@@ -14,7 +14,7 @@ This repository has relevant information to Explore the information in SQL
 
 <h2> About Me</h2>
 <div>
-<a href="https://media-exp3.licdn.com/dms/image/D5635AQGENREQtSOVvA/profile-framedphoto-shrink_100_100/0/1624892028859?e=1626242400&v=beta&t=Vg9jbuG3OgWuTiinlR3A6Pdcpfw1iBu_MgY2_MlgNNE"><img src="https://media-exp3.licdn.com/dms/image/D5635AQGENREQtSOVvA/profile-framedphoto-shrink_100_100/0/1624892028859?e=1626242400&v=beta&t=Vg9jbuG3OgWuTiinlR3A6Pdcpfw1iBu_MgY2_MlgNNE"></a>
+<a href="[https://media-exp3.licdn.com/dms/image/D5635AQGENREQtSOVvA/profile-framedphoto-shrink_100_100/0/1624892028859?e=1626242400&v=beta&t=Vg9jbuG3OgWuTiinlR3A6Pdcpfw1iBu_MgY2_MlgNNE"><img src="https://media-exp3.licdn.com/dms/image/D5635AQGENREQtSOVvA/profile-framedphoto-shrink_100_100/0/1624892028859?e=1626242400&v=beta&t=Vg9jbuG3OgWuTiinlR3A6Pdcpfw1iBu_MgY2_MlgNNE](https://1drv.ms/i/c/5808a0f49e50fd06/UQQG_VCe9KAIIIBYwkEAAAAAAFF16BjZalAeQxk?width=1936&height=1079)"></a>
 </div>
 <h3>
             KARAN SHAH
@@ -55,7 +55,7 @@ order by TotalDeathCount desc
 
 ```
  **Output  for Table 2**
-<a href="https://1drv.ms/u/s!Agb9UJ70oAhYgYM2jDymgbEF5enhsA?e=soSt3C"><img src="https://bn1305files.storage.live.com/y4miNwsewCbNI2lI37AymFnY3rx3yIVORU_TIw8tnajx2yDfhzcHBvOQR9IgtUjIVmFlMmv1NtD4oimRmi3O2PqfVhUVvlXDEh74iG5pHpqHiHV9G-iwKfQd-zF64HMSgPU2GW40K6cFsAHFxS492q8LiWod4iIUFrBCb_QzgU-nmwYaIWmmOSj7JnlI8gD0U7F?width=1920&height=1080&cropmode=none"> </a>     
+<a href="[https://1drv.ms/u/s!Agb9UJ70oAhYgYM2jDymgbEF5enhsA?e=soSt3C"><img src="https://bn1305files.storage.live.com/y4miNwsewCbNI2lI37AymFnY3rx3yIVORU_TIw8tnajx2yDfhzcHBvOQR9IgtUjIVmFlMmv1NtD4oimRmi3O2PqfVhUVvlXDEh74iG5pHpqHiHV9G-iwKfQd-zF64HMSgPU2GW40K6cFsAHFxS492q8LiWod4iIUFrBCb_QzgU-nmwYaIWmmOSj7JnlI8gD0U7F?width=1920&height=1080&cropmode=none](https://1drv.ms/i/c/5808a0f49e50fd06/UQQG_VCe9KAIIIBYrkEAAAAAAEyBGZlB_yfAxJk?width=1920&height=1080)"> </a>     
 
 >BREAKING THINGS DOWN BY CONTINENT
 >Showing contintents with the highest death count per population
@@ -68,7 +68,7 @@ Group by continent
 order by TotalDeathCount desc
 ```
  **Output  for Table 3**
-<a href="" ><img src="https://bn1305files.storage.live.com/y4mbF8fTIS7OO9wGdgYc-61cNWQW6HWiqoapJaJ2yXsMDqhdNa2WC6VgXZtY0AedplbAGu9RUCFh6RlSrs4Tih2-9-vAl16_JGVAFDpvo8Tfh-PmUVJMiFCWnWcDwleR5ZbX87OsWrb4HEKCADakIl08OIGSJbzQKWorwf2HLtG1y51sttojCdQn43Zwkbraxvp?width=1920&height=1080&cropmode=none"> </a>
+<a href="" ><img src="[https://bn1305files.storage.live.com/y4mbF8fTIS7OO9wGdgYc-61cNWQW6HWiqoapJaJ2yXsMDqhdNa2WC6VgXZtY0AedplbAGu9RUCFh6RlSrs4Tih2-9-vAl16_JGVAFDpvo8Tfh-PmUVJMiFCWnWcDwleR5ZbX87OsWrb4HEKCADakIl08OIGSJbzQKWorwf2HLtG1y51sttojCdQn43Zwkbraxvp?width=1920&height=1080&cropmode=none](https://1drv.ms/i/c/5808a0f49e50fd06/UQQG_VCe9KAIIIBYr0EAAAAAAOEGN2cMNav69fc?width=1920&height=1080)"> </a>
 >GLOBAL NUMBERS
 ```
 Select SUM(new_cases) as total_cases, SUM(cast(new_deaths as int)) as total_deaths, SUM(cast(new_deaths as int))/SUM(New_Cases)*100 as DeathPercentage
@@ -80,7 +80,7 @@ order by 1,2
 
 ```
  **Output  for Table 4**
-<a href="" ><img src="https://bn1305files.storage.live.com/y4mPvYz1HtTLB6pWBpahWE3SEPwmFgII_X3Nbj9t75dcILGH6UvTRYsMA-G91M5fQfQyk1Tn8P0F7uxB8QfIVyZtEy_Xv0RDjo64eahSWq4p_Vwiwcj42WUdZfE6Og1-47Pwlq3pI3v5Hjm2CD5ofmo84QgtQZ7cwLvp-bHmjy1LZnjt7DH_15RABFx0qUVcMjj?width=1920&height=1080&cropmode=none"> </a>
+<a href="" ><img src="[https://bn1305files.storage.live.com/y4mPvYz1HtTLB6pWBpahWE3SEPwmFgII_X3Nbj9t75dcILGH6UvTRYsMA-G91M5fQfQyk1Tn8P0F7uxB8QfIVyZtEy_Xv0RDjo64eahSWq4p_Vwiwcj42WUdZfE6Og1-47Pwlq3pI3v5Hjm2CD5ofmo84QgtQZ7cwLvp-bHmjy1LZnjt7DH_15RABFx0qUVcMjj?width=1920&height=1080&cropmode=none](https://1drv.ms/i/c/5808a0f49e50fd06/UQQG_VCe9KAIIIBYsEEAAAAAAE-VpMRXF66AR5w?width=1920&height=1080)"> </a>
 >Total Population vs Vaccinations
 >Shows Percentage of Population that has recieved at least one Covid Vaccine
 ```
@@ -95,7 +95,7 @@ where dea.continent is not null
 order by 2,3
 ```
  **Output  for Table 5**
-<a href="" ><img src="https://bn1305files.storage.live.com/y4mwKC-Z-hcROzh0MqW28VBeOG-aNaY1XosfNcvl_FUCTAwN4iDTpnZ5Ker2P3WuUaSgAKfNLnMs24CTo_MWcTwNtwrKYIxaYfeNRTTY2bO2Q_4bGhkaPLUn8blz9LvV4F8k8RFlKQf8gtzYJQXcrSDXKkpqV99SsdnJTqvA154hIOXcvVwhqgLoO3NOKq2tRWf?width=1920&height=1080&cropmode=none"> </a>
+<a href="" ><img src="[https://bn1305files.storage.live.com/y4mwKC-Z-hcROzh0MqW28VBeOG-aNaY1XosfNcvl_FUCTAwN4iDTpnZ5Ker2P3WuUaSgAKfNLnMs24CTo_MWcTwNtwrKYIxaYfeNRTTY2bO2Q_4bGhkaPLUn8blz9LvV4F8k8RFlKQf8gtzYJQXcrSDXKkpqV99SsdnJTqvA154hIOXcvVwhqgLoO3NOKq2tRWf?width=1920&height=1080&cropmode=none](https://1drv.ms/i/c/5808a0f49e50fd06/UQQG_VCe9KAIIIBYskEAAAAAAKQznklocYxgy14?width=1920&height=1080)"> </a>
 >Using CTE to perform Calculation on Partition By in previous query
 ```
 With PopvsVac (Continent, Location, Date, Population, New_Vaccinations, RollingPeopleVaccinated)
@@ -116,7 +116,7 @@ From PopvsVac
 
 ```
  **Output  for Table 6**
-<a href="" ><img src="https://bn1305files.storage.live.com/y4mwKC-Z-hcROzh0MqW28VBeOG-aNaY1XosfNcvl_FUCTAwN4iDTpnZ5Ker2P3WuUaSgAKfNLnMs24CTo_MWcTwNtwrKYIxaYfeNRTTY2bO2Q_4bGhkaPLUn8blz9LvV4F8k8RFlKQf8gtzYJQXcrSDXKkpqV99SsdnJTqvA154hIOXcvVwhqgLoO3NOKq2tRWf?width=1920&height=1080&cropmode=none"> </a>
+<a href="" ><img src="[https://bn1305files.storage.live.com/y4mwKC-Z-hcROzh0MqW28VBeOG-aNaY1XosfNcvl_FUCTAwN4iDTpnZ5Ker2P3WuUaSgAKfNLnMs24CTo_MWcTwNtwrKYIxaYfeNRTTY2bO2Q_4bGhkaPLUn8blz9LvV4F8k8RFlKQf8gtzYJQXcrSDXKkpqV99SsdnJTqvA154hIOXcvVwhqgLoO3NOKq2tRWf?width=1920&height=1080&cropmode=none](https://1drv.ms/i/c/5808a0f49e50fd06/IQQG_VCe9KAIIIBYsUEAAAAAARBGJN-9y6sKTYXv03aotow?width=1920&height=1080)"> </a>
 >Using Temp Table to perform Calculation on Partition By in previous query
 ```
 DROP Table if exists #PercentPopulationVaccinated
@@ -145,7 +145,7 @@ Select *, (RollingPeopleVaccinated/Population)*100
 From #PercentPopulationVaccinated
 ```
  **Output  for Table 7**
-<a href="" ><img src="https://bn1305files.storage.live.com/y4mtkNxu6-LqNlfEj019AIzWKHFEMAlHz2urc3lkfAoKR5BxaRYeuFtAVhbZb4SmqrHDR8uGu1KSIe9DtZRvPpJtBqcfo4Tsb-3mUdIfn_XpAhODOem1gVR2Q8tqdPGogKckIzIQxflolS3UN0SJto1uScebHIcF9ex9MTswWfZuo9YDspNWzl_8pNo_59NbZM7?width=1920&height=1080&cropmode=none"> </a>
+<a href="" ><img src="[https://bn1305files.storage.live.com/y4mtkNxu6-LqNlfEj019AIzWKHFEMAlHz2urc3lkfAoKR5BxaRYeuFtAVhbZb4SmqrHDR8uGu1KSIe9DtZRvPpJtBqcfo4Tsb-3mUdIfn_XpAhODOem1gVR2Q8tqdPGogKckIzIQxflolS3UN0SJto1uScebHIcF9ex9MTswWfZuo9YDspNWzl_8pNo_59NbZM7?width=1920&height=1080&cropmode=none](https://1drv.ms/i/c/5808a0f49e50fd06/UQQG_VCe9KAIIIBYs0EAAAAAAJyeU9kKxgeiCyA?width=1920&height=1080)"> </a>
 
 >Creating View to store data for later visualizations
 ```
@@ -160,6 +160,6 @@ Join PortfolioProject..CovidVaccinations vac
 where dea.continent is not null 
 ```
  **Output  for Table 8**
-<a href="" ><img src="https://bn1305files.storage.live.com/y4mQx8kwUXbtgn9gEKaPX0ggbl3PvOD_-3bgFhAZ15XMddkvWyxgsjyYjmWtfYfHZuqsZs5M0hRNXVnsFFFUSL9pk4lctNoIqNjl8NAuu0e0ewiPavG4_0azhU40PxP1SM6yffA-FXgoQaakDvPJP20MJGxezDBnt7hevuPWy_TThPkuQ5wyOTJ22EwBzZWjScg?width=1920&height=1080](https://1drv.ms/i/c/5808a0f49e50fd06/UQQG_VCe9KAIIIBYtUEAAAAAAGRM2YYAWQyxs_Y?width=1920&height=1080"> </a>
+<a href="" ><img src="[https://bn1305files.storage.live.com/y4mQx8kwUXbtgn9gEKaPX0ggbl3PvOD_-3bgFhAZ15XMddkvWyxgsjyYjmWtfYfHZuqsZs5M0hRNXVnsFFFUSL9pk4lctNoIqNjl8NAuu0e0ewiPavG4_0azhU40PxP1SM6yffA-FXgoQaakDvPJP20MJGxezDBnt7hevuPWy_TThPkuQ5wyOTJ22EwBzZWjScg?width=1920&height=1080](https://1drv.ms/i/c/5808a0f49e50fd06/UQQG_VCe9KAIIIBYtUEAAAAAAGRM2YYAWQyxs_Y?width=1920&height=1080](https://1drv.ms/i/c/5808a0f49e50fd06/UQQG_VCe9KAIIIBYtUEAAAAAAGRM2YYAWQyxs_Y?width=1920&height=1080)"> </a>
 
 
