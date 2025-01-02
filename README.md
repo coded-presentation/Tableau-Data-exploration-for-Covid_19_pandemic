@@ -160,6 +160,6 @@ Join PortfolioProject..CovidVaccinations vac
 where dea.continent is not null 
 ```
  **Output  for Table 8**
-<a href="" ><img src="https://bn1305files.storage.live.com/y4mQx8kwUXbtgn9gEKaPX0ggbl3PvOD_-3bgFhAZ15XMddkvWyxgsjyYjmWtfYfHZuqsZs5M0hRNXVnsFFFUSL9pk4lctNoIqNjl8NAuu0e0ewiPavG4_0azhU40PxP1SM6yffA-FXgoQaakDvPJP20MJGxezDBnt7hevuPWy_TThPkuQ5wyOTJ22EwBzZWjScg?width=1920&height=1080&cropmode=none"> </a>
+<a href="" ><img src="https://bn1305files.storage.live.com/y4mQx8kwUXbtgn9gEKaPX0ggbl3PvOD_-3bgFhAZ15XMddkvWyxgsjyYjmWtfYfHZuqsZs5M0hRNXVnsFFFUSL9pk4lctNoIqNjl8NAuu0e0ewiPavG4_0azhU40PxP1SM6yffA-FXgoQaakDvPJP20MJGxezDBnt7hevuPWy_TThPkuQ5wyOTJ22EwBzZWjScg?width=1920&height=1080](https://1drv.ms/i/c/5808a0f49e50fd06/UQQG_VCe9KAIIIBYtUEAAAAAAGRM2YYAWQyxs_Y?width=1920&height=1080"> </a>
 
 
